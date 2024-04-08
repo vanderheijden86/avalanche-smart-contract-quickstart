@@ -8,7 +8,7 @@ const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
 const ip = 'localhost';
-const port = 9650;
+const port = 57942;
 const protocol = 'http';
 const networkID = 12345;
 const avalanche = new avalanche_1.Avalanche(ip, port, protocol, networkID);

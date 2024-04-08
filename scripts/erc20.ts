@@ -4,8 +4,8 @@ import {
 } from "ethers"
 import { ethers } from "hardhat"
 
-const coinName: string = ""
-const coinAddr: string = ""
+const coinName: string = "ExampleERC20"
+const coinAddr: string = "0x52C84043CD9c865236f11d9Fc9F56aa003c1f922"
 const walletAddress: string = ""
 
 const main = async (): Promise<any> => {
